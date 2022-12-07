@@ -1,0 +1,468 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body{
+    font-family: 'inter' sans-serif;
+    color: #000;
+    height: 100%;
+    max-width: 100%;
+    display: block;
+    margin: 0;
+    overflow-x: hidden;
+
+
+}
+
+a, li{
+    text-decoration: none;
+    list-style-type: none;
+}
+
+h1, h2, h3, h4, h5, h6, p{
+    margin: 0;
+}
+.container{
+    max-width: 1544px;
+    margin: 0 auto;
+    display: block;
+    background: #fff;
+    line-height: 40px;
+    text-align: center;
+}
+.super{
+    width: 100%;
+    position: relative;
+}
+
+
+
+
+.clearfix{
+    overflow: auto;
+}
+
+/* header section */
+
+header {
+    position: relative;
+    z-index: 9;
+    text-align: center;
+    line-height: 20px;
+    top: 70px;
+}
+
+header:hover {
+    /* background: rgba(50, 300, 27, 0.009); */
+    background-color: rgb(94, 126, 126);
+    transition: 600ms ease;
+    padding-block: 70px;
+}
+.header_container{
+    position: fixed;
+    max-width: 1200px;
+    display: block;
+    top: 0;
+    margin: 0 auto
+}
+
+header .container{
+margin: 20px auto 0px;
+background: #fff;
+border-radius: 5px;
+position: fixed;
+z-index: 9;
+}
+
+header .header_container{
+display: flex;
+justify-content: space-between;
+align-items: center;
+padding: 0 30px 0 20px;
+}
+
+#logo{
+    position: absolute;
+    position: fixed;
+    top: 120px;
+}
+
+nav{
+    position: relative;
+    display: inline-block;
+    text-align: center;
+    justify-content: center;
+}
+header nav ul{
+display: flex;
+justify-content: flex-start;
+gap:  80px;
+text-transform: lowercase;
+float: right;
+width: 774px;
+}
+
+header nav ul li a{
+font-size: 20px;
+font-weight: 400;
+color: #fff;
+text-transform: lowercase;
+font-family: 'inter';
+font-style: normal;
+}
+header nav ul li a:hover{
+color: orange;
+}
+
+/*hero section */
+
+.hero_expanded{
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(img/Scannia.jpg) no-repeat top / cover;
+    position: relative;
+    height: 1179px;
+    width: 100%;
+    margin-top: -144px;
+    top: 0;
+}
+
+#hero{
+    text-align: center;
+    background: transparent;
+    height: 30px;
+}
+#hero .site_name_tag{
+    text-align: center;
+    top: 527px;
+    line-height: 50px;
+    position: absolute;
+    padding: 180px 608px;
+    display: block;
+}
+
+#hero .site_name_tag h2{
+    font-family: 'Inria Sans';
+    font-style: italic;
+    text-align: center;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 70px;
+    color: #F5B945;
+    font-weight: 800;
+    white-space: pre-line;
+    text-transform: uppercase;
+}
+#hero .site_name_tag h1{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 50px;
+    text-align: center;
+    font-size: 50px;
+    line-height: 70px;
+    color: #fff;
+    font-weight: 800;
+    white-space: pre-line;
+    text-transform: lowercase;
+}
+
+#hero .site_name_tag a{
+    text-align: center;
+    width: auto;
+    height: auto;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 60px;
+    background: #FBC609;
+    display: inline-block;
+    color: #fff;
+    padding: 0 49px 0 40px;
+    border-radius: 100px;
+    text-transform: lowercase;
+    margin-top: 20px;
+}
+
+#hero .site_name_tag a:hover{
+    background: red;
+    color: #fff;
+}
+
+/* middle section */
+
+.blank_module .left_container{
+    display: inline-block;
+    vertical-align: middle;
+    position: relative;
+}
+
+.blank_module{
+    padding: -16px 0;
+    position: absolute;
+    width: 85%;
+    display: block;
+}
+
+
+.blank_module img{
+    box-shadow: rgba(0, 0, 0, 0.2);
+    position: absolute;
+    float: right;
+    width: 543px;
+    height: 352px;
+    padding: 0 250px;
+}
+
+.picture img{
+    justify-content: right;
+    padding: 70px o;
+}
+
+
+
+.blank_module .left_container{
+    width: 45%;
+  
+}
+
+.blank_module .left_container h6{
+   position: absolute;
+    width:320px;
+    height: 50px;
+    font-family: 'Inter';
+    font-style: italic;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 50px;
+}
+
+.blank_module .left_container p{
+    position: absolute;
+    width: 221px;
+    height: 94px;
+    font-family: 'Calibri';
+    font-style: italic;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 30px;
+    padding: 50px 0;
+}
+
+.blank_module .left_container h3{
+    position: absolute;
+    color:  #B37429;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 15;
+    width: 237px;
+}
+
+.blank_module .left_container h4{
+    position: absolute;
+    font-size: 16px;
+    font-weight: 700;
+    font-family: 'inter';
+    font-style: normal;
+    line-height: 25;
+    width: 172px;
+}
+
+.blank_module .left_container h5{
+    position: absolute;
+    font-size: 16px;
+    font-weight: 700;
+    font-family: 'inter';
+    font-style: normal;
+    line-height: 30;
+    width: 299px;
+}
+
+input{
+    position: absolute;
+    width: 314px;
+    height: 51px;
+    left: 0;
+    margin-top: 289px;
+}
+
+.blank_module .left_container a{
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 60px;
+    background: #FBC609;
+    display: inline-block;
+    color: #fff;
+    padding: 0 49px 0 40px;
+    border-radius: 100px;
+    text-transform: lowercase;
+    margin-top: 360px;
+    position: absolute;
+    left: 0;
+}
+
+.blank_module .left_container a:hover{
+    background-color: red;
+}
+
+/*midline content */
+
+.midline_content{
+    display: block;
+    background: url(img/aircraftt.jpg) no-repeat top / cover;
+    width: 100%;
+    height: 667px;
+    position: absolute;
+    top: 1623px
+
+}
+
+.midline_content .right_container h1{
+    position: absolute;
+    font-family: 'inter';
+    width: 918px;
+    font-style: normal;
+    font-size: 40px;
+    font-weight: 700;
+    display: block;
+    color: #fff;
+    text-transform: uppercase;
+    line-height: 450px;
+}
+
+.midline_content .right_container p{
+    position: absolute;
+    font-family: 'inter';
+    font-style: normal;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    width: 343px;
+    color: #fff;
+    top: 264px;
+    padding: 0 276px;
+}
+
+.midline_content .right_container img{
+    position: absolute;
+    float: right;
+    width: 595px;
+    height: 456px;
+    top: 30%;
+}
+
+/* footer */
+
+.head_footer{
+    display: block;
+    background: #fff;
+    width: 100%;
+    height: 700px;
+    position: absolute;
+    top: 2350px;
+   
+}
+.head_footer .container h2{
+    position: relative;
+    color: #F5B945;
+    text-transform: uppercase;
+    text-align: center;
+    font-family: 'Inter';
+    font-style: italic;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 80px;
+}
+
+.head_footer .container h1{
+    position: absolute;
+    color: #000;
+    text-transform: uppercase;
+    height: 80px;
+    font-family: 'Inter';
+    font-style: italic;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 80px;
+    padding: 0 210px;
+}
+
+.head_footer .container p{
+    position: absolute;
+    width: 516px;
+    height: 216px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 36px;
+    padding: 65px 220px;
+}
+.container h6{
+    text-align: center;
+    line-height: 900px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+
+}
+
+/* 
+.footer_comment{
+    display: inline-block;
+    width: 348px;
+    height: 300px;
+    background-color: gray;
+    float: right;
+} */
+
+
+.footer_comment {
+    top: 1300px;
+    background-color: rgba(0, 0, 0, 0.2);
+    width: 300px;
+    height: 300px;
+    position: relative;
+    left: 950px;
+    text-align: center;
+    display: block;
+    z-index: 9;
+    font-family: 'Inter';
+    color: #fff;
+    padding: 50px;
+}
+
+.footer_comment h1 {
+    font-weight: lighter;
+}
+
+.footer_comment p {
+    text-align: left;
+}
+
+.footer_comment .texto, .footer_comment .commento {
+    position: relative;
+    width: 239px;
+    height: auto;
+    margin: 0;
+}
+
+.footer_comment .texto {
+    padding-block: 10px;
+    padding-inline: 20px;
+}
+
+
+
+.footer_comment .commento {
+    padding: 50px 0;
+    padding-inline: 20px;
+}
+footer .container h6{
+    text-align: center;
+}
+
+
+
+
+
